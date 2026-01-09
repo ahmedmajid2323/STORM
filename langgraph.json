@@ -1,0 +1,9 @@
+{
+    "node_version": "20",
+    "dependencies": ["."],
+    "graphs": {
+      "storm_agent": "./src/storm/final.ts:research_assistant",
+      "simple_agent": "./src/agent.ts:app"
+    },
+    "env": "./.env"
+  }
